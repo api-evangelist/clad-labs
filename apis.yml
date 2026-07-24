@@ -1,7 +1,28 @@
 aid: clad-labs
 name: Clad Labs
-description: Clad Labs is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clad Labs is a San Francisco developer-tools startup (Y Combinator, Fall 2025)
+  building Chad IDE, a desktop development environment that orchestrates multiple
+  AI coding agents — Claude Code, Cursor CLI, and OpenAI Codex — from a single
+  interface. Developers spin up teams of parallel agents, keep each task isolated
+  in its own workspace, then merge clean changes back together, while a built-in
+  analytics dashboard tracks coding habits and productivity metrics. The IDE also
+  fills AI-inference downtime with an in-app "Chad Browser" for entertainment that
+  automatically hands focus back to the code when generation completes. Clad Labs
+  ships a downloadable macOS and Windows application rather than a public web API;
+  it exposes no REST/OpenAPI developer surface at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cladlabs.ai/home_page_view.png
 url: https://raw.githubusercontent.com/api-evangelist/clad-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,56 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://cladlabs.ai
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Developer Tools
+- IDE
+- AI Coding Agents
+- Code Generation
+- Developer Productivity
+- Multi-Agent Orchestration
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/clad-labs-domain-security.yml
+- type: Website
+  url: https://cladlabs.ai
+- type: DeveloperPortal
+  url: https://cladlabs.ai/docs
+- type: Documentation
+  url: https://cladlabs.ai/docs
+- type: GettingStarted
+  url: https://cladlabs.ai/docs
+- type: Blog
+  url: https://cladlabs.ai/blog
+- type: Download
+  url: https://cladlabs.ai/download
+- type: Pricing
+  url: https://cladlabs.ai/pricing
+- type: TermsOfService
+  url: https://cladlabs.ai/terms
+- type: PrivacyPolicy
+  url: https://cladlabs.ai/privacy
+- type: Support
+  url: mailto:support@cladlabs.ai
+- type: Community
+  url: https://discord.gg/gY8u3KDX
+- type: Twitter
+  url: https://x.com/cladlabs
+- type: LinkedIn
+  url: https://linkedin.com/company/clad-labs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
