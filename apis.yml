@@ -33,6 +33,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://cladlabs.ai', status: 301, note: 'declared website redirects to https://www.useclad.ai/ — a different registrable domain (cladlabs.ai -> useclad.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://cladlabs.ai/home_page_view.png
 url: https://raw.githubusercontent.com/api-evangelist/clad-labs/refs/heads/main/apis.yml
 x-type: company
